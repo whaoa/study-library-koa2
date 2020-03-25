@@ -1,0 +1,27 @@
+{
+  "name": "study-library-koa2",
+  "version": "1.0.0",
+  "description": "Koa2 source code learning.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "./node_modules/.bin/git-cz"
+  },
+  "keywords": [],
+  "author": "whaoa",
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "conventional-changelog-cli": "^2.0.31",
+    "cz-conventional-changelog": "^3.1.0",
+    "cz-customizable": "^6.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "dependencies": {
+    "koa2": "^2.0.0-alpha.7"
+  }
+}
